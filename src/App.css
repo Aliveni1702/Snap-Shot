@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.headings{
+  display: flex;
+ justify-content: center;
+ margin-top: 2%;
+}
+sub{
+  font-size: xx-small;
+}
+h2{
+ font-family: italic;
+  font-style: italic;
+  font-size:xx-large;
+  text-shadow: 0 0 1px rgb(244, 69, 99);
+  margin-top: 1%;
+}
+#search{
+  padding: 0.8%;
+  margin-top: 3%;
+  margin-left: 32%;
+  border-radius: 5px 0 0 5px;
+  width: 30%;
+  background-color: whitesmoke;
+}
+#search:hover{
+  box-shadow:  0 0 5px rgb(223, 45, 75);;
+}
+span{
+  background-color: black;
+  display: inline-block;
+  height: 20%;
+  padding-top: 0.5%;
+  padding-bottom: 0.9%;
+  border-radius: 0px 5px 5px 0;
+  width: 5%;
+  cursor: pointer;
+  text-align: center; /* adjust the gap value to your desired spacing */
+}
+
+
+
+.buttons{
+ display: flex;
+margin:auto;
+ padding: 2%;
+ justify-content: space-around;
+ justify-content: space-evenly;
+  
+ border:1px black;
+ height: 20%;
+ width: 50%;
+ 
+
+
+}
+.buttons button{
+  background: linear-gradient(45deg, black, grey, #ccc);
+  color: white;
+  padding: 1%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer; 
+
+}
+.buttons button:hover{
+  box-shadow: 0 0 5px rgb(223, 45, 75);
+}
+.dataloaded{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+ 
+  
+
+}
